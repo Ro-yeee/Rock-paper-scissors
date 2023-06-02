@@ -1,0 +1,28 @@
+body{
+    background: #ffea00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    font-size: 20px;
+}
+
+.image_container{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image{
+    width: 16em;
+}
