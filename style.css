@@ -1,6 +1,6 @@
 body{
     background: #ffea00;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header{
@@ -16,6 +16,25 @@ body{
     font-size: 20px;
 }
 
+.playagain-button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.hidebutton{
+    display: none;
+}
+
+.buttonstyle{
+    border-radius: 28px;
+    width: 100px;
+    height: 44px;
+    border: 4px solid red;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
 .image_container{
     display: flex;
     gap: 100px;
@@ -23,6 +42,11 @@ body{
     flex-wrap: wrap;
 }
 
-.image{
+.button{
     width: 16em;
+    transition: 0.5s;
+}
+
+.button-hover{
+    transform: scale(1.1);
 }
